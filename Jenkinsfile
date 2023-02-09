@@ -5,7 +5,7 @@ pipeline {
             steps {
                 sh '''
                 echo 'Install Terraform'
-                sudo apt update
+                apt update
                 '''
             }
         }
