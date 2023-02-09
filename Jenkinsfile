@@ -4,9 +4,8 @@ pipeline {
         stage('Build'){
             steps {
                 sh '''
-                echo Hello
-                echo Hello 1
-                echo Hello 2
+                echo 'Install Terraform'
+                sudo apt update
                 '''
             }
         }
